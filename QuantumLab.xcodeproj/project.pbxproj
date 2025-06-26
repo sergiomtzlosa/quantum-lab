@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0471BB3FAD16041354F9B3E7 /* QLFFT.m in Sources */ = {isa = PBXBuildFile; fileRef = 399C885052E27FDDA868B5E7 /* QLFFT.m */; };
+		0DCE4959D139BAA68E3CE983 /* QLHelpWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AF8965D29EBC388987B29C /* QLHelpWindowController.m */; };
+		0E52F69F6D82E8B21D3015A4 /* QLSimulationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B698859849CA2D80032606F /* QLSimulationResult.m */; };
+		1E28C27F698413E27CC6F081 /* QLParameterCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD5B17F25F3B37AF038D4D5 /* QLParameterCatalog.m */; };
+		33AF163A3A7D3E6C73C4A746 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CA6200C4FC0930FB61177F /* UniformTypeIdentifiers.framework */; };
+		3C282A87F767A0CCED93A934 /* QLPotential.m in Sources */ = {isa = PBXBuildFile; fileRef = D309BF5DED6B49383F69C2A8 /* QLPotential.m */; };
+		41252B6913CFDE03EAF60BF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C8495BF90A647D104A4D5 /* AppDelegate.m */; };
+		428DE5D716344CA920E281E7 /* QL3DPlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 275884AAC3880045B3DED50D /* QL3DPlotView.m */; };
+		452ADB22E3004C502B5E3D4A /* QLMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF49C566A28834C1377CE9 /* QLMainWindowController.m */; };
+		4C1C472B2359B3387AFACD32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 348BC36EDF93E476DB651DD5 /* main.m */; };
+		4E00F73669AD58087862D639 /* QLSimulationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB9DF38B01D7AEC37E5766D /* QLSimulationConfig.m */; };
+		4E450B5EBA14B5D0A4A31EF6 /* QLPlotStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A833EBAFD47EAAB3F49F0A8 /* QLPlotStyle.m */; };
+		50C63B38A67DF809E0728EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20649D72CD350E385D70DE8 /* Assets.xcassets */; };
+		5775362C1ACF0D871F0B7698 /* QLSchrodingerSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F9B5B01FFEAF253FEC89F /* QLSchrodingerSolver.m */; };
+		5A753C55BCE2926925482EB9 /* QLSelfTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA0B92950AF22A9BAB75000 /* QLSelfTest.m */; };
+		6850CE02A47C4C32BB63BE2C /* QL2DPlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 485EAA768E6B140758393DC1 /* QL2DPlotView.m */; };
+		72E973A308DAF1E9EF02C5F9 /* QLUITest.m in Sources */ = {isa = PBXBuildFile; fileRef = A896E6393712FFFCA3C01594 /* QLUITest.m */; };
+		7A049EAF32D0E3CAC9531074 /* QLParameterRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BE0FB5F2319AB6A2C277E8 /* QLParameterRow.m */; };
+		9EB21B42D6015863A69FCEBB /* QLParameterSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B779DDE5373D5D0BC286BB30 /* QLParameterSet.m */; };
+		B0FA24BC9FAA712DEECB9D38 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB80C3CD0DB72D9CF27A5DC2 /* Cocoa.framework */; };
+		C3FBA25CFD1838F62847615E /* QLHeisenbergSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B59A583701FC365A36464E2 /* QLHeisenbergSolver.m */; };
+		C7C8CDD26129CF45C4D4DC97 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F485E439B511913FC5C2BE6 /* SceneKit.framework */; };
+		D0EC28B2C1AF067379EC09A0 /* QLParameterFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3BF02B2EB461975CBF9A3F /* QLParameterFormView.m */; };
+		D763786514668B1A7069D9D9 /* QLParameterDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E9D17350AF5CB99F29A59F /* QLParameterDefinition.m */; };
+		DA806685A32E4FF00C9CAA97 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280705AC6438FDF85B9BE5B8 /* QuartzCore.framework */; };
+		F23679906AAD3FEDF0CE2621 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AAB5F47E4D65EC34B220893 /* Accelerate.framework */; };
+		FA89E8101A080FBFFC9E87ED /* QLColorMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A8E2BDBCBCBBC2B3D262 /* QLColorMap.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11181A790463D1D333DC59A4 /* QLFFT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLFFT.h; sourceTree = "<group>"; };
+		1A1D0218932019FA9484A827 /* QLSimulationResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLSimulationResult.h; sourceTree = "<group>"; };
+		1F485E439B511913FC5C2BE6 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		1F7298B9769374A5755657B3 /* QLColorMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLColorMap.h; sourceTree = "<group>"; };
+		275884AAC3880045B3DED50D /* QL3DPlotView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QL3DPlotView.m; sourceTree = "<group>"; };
+		280705AC6438FDF85B9BE5B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		32427FCB2E7E11FB17BF56B6 /* QLMainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLMainWindowController.h; sourceTree = "<group>"; };
+		348BC36EDF93E476DB651DD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39033AE7BA829D68A2B0EDE1 /* QLParameterFormView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLParameterFormView.h; sourceTree = "<group>"; };
+		399C885052E27FDDA868B5E7 /* QLFFT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLFFT.m; sourceTree = "<group>"; };
+		3BAAF026DBFB50CFA3F7E7D1 /* QL3DPlotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QL3DPlotView.h; sourceTree = "<group>"; };
+		3E8F9B5B01FFEAF253FEC89F /* QLSchrodingerSolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLSchrodingerSolver.m; sourceTree = "<group>"; };
+		45BBBD36CC6C9138380B9547 /* QLSchrodingerSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLSchrodingerSolver.h; sourceTree = "<group>"; };
+		485EAA768E6B140758393DC1 /* QL2DPlotView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QL2DPlotView.m; sourceTree = "<group>"; };
+		49AF8965D29EBC388987B29C /* QLHelpWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLHelpWindowController.m; sourceTree = "<group>"; };
+		4A833EBAFD47EAAB3F49F0A8 /* QLPlotStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLPlotStyle.m; sourceTree = "<group>"; };
+		4E4ED870131F59303ACB3816 /* QLParameterCatalog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLParameterCatalog.h; sourceTree = "<group>"; };
+		56A61FCF21F19FD687C03BF5 /* QLPotential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLPotential.h; sourceTree = "<group>"; };
+		69E9D17350AF5CB99F29A59F /* QLParameterDefinition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLParameterDefinition.m; sourceTree = "<group>"; };
+		6A8C8495BF90A647D104A4D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B59A583701FC365A36464E2 /* QLHeisenbergSolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLHeisenbergSolver.m; sourceTree = "<group>"; };
+		79BE0FB5F2319AB6A2C277E8 /* QLParameterRow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLParameterRow.m; sourceTree = "<group>"; };
+		7DE6801ABF5268C932B63B76 /* QLTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLTypes.h; sourceTree = "<group>"; };
+		7FAF49C566A28834C1377CE9 /* QLMainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLMainWindowController.m; sourceTree = "<group>"; };
+		867FEE34D3D90EB6B4659CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8AAB5F47E4D65EC34B220893 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8B698859849CA2D80032606F /* QLSimulationResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLSimulationResult.m; sourceTree = "<group>"; };
+		92D5C68DB4F2506456A3351E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F7C3F7F0AE2A51264D396B1 /* QL2DPlotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QL2DPlotView.h; sourceTree = "<group>"; };
+		A896E6393712FFFCA3C01594 /* QLUITest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLUITest.m; sourceTree = "<group>"; };
+		B2D3A8E2BDBCBCBBC2B3D262 /* QLColorMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLColorMap.m; sourceTree = "<group>"; };
+		B779DDE5373D5D0BC286BB30 /* QLParameterSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLParameterSet.m; sourceTree = "<group>"; };
+		BBA0B92950AF22A9BAB75000 /* QLSelfTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLSelfTest.m; sourceTree = "<group>"; };
+		BF7B2EE4B2207C886137D88C /* QLPlotStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLPlotStyle.h; sourceTree = "<group>"; };
+		C60DEED79C269312F0623482 /* QuantumLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuantumLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA1C837A9AB8263C6AE420B /* QLSelfTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLSelfTest.h; sourceTree = "<group>"; };
+		CEF10075C6BE0678F6C240EE /* QLParameterSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLParameterSet.h; sourceTree = "<group>"; };
+		CF3BF02B2EB461975CBF9A3F /* QLParameterFormView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLParameterFormView.m; sourceTree = "<group>"; };
+		D309BF5DED6B49383F69C2A8 /* QLPotential.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLPotential.m; sourceTree = "<group>"; };
+		D771C66F35415BBC4AD1A1D2 /* QLHeisenbergSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLHeisenbergSolver.h; sourceTree = "<group>"; };
+		DE38E83835FA91CB65FE8FA4 /* QLUITest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLUITest.h; sourceTree = "<group>"; };
+		E1039C28884027BCA09A29BF /* QLParameterRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLParameterRow.h; sourceTree = "<group>"; };
+		E20649D72CD350E385D70DE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5CA6200C4FC0930FB61177F /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		EB80C3CD0DB72D9CF27A5DC2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F8E3E2FE6C2DB48CA574544F /* QLParameterDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLParameterDefinition.h; sourceTree = "<group>"; };
+		FAD5B17F25F3B37AF038D4D5 /* QLParameterCatalog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLParameterCatalog.m; sourceTree = "<group>"; };
+		FE2D4FFD0D6670C95EFE9A51 /* QLHelpWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLHelpWindowController.h; sourceTree = "<group>"; };
+		FE36BF08BE363FB4D3D1D78F /* QLSimulationConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLSimulationConfig.h; sourceTree = "<group>"; };
+		FEB9DF38B01D7AEC37E5766D /* QLSimulationConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLSimulationConfig.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8207ED8783E802222D5EA622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FA24BC9FAA712DEECB9D38 /* Cocoa.framework in Frameworks */,
+				C7C8CDD26129CF45C4D4DC97 /* SceneKit.framework in Frameworks */,
+				F23679906AAD3FEDF0CE2621 /* Accelerate.framework in Frameworks */,
+				DA806685A32E4FF00C9CAA97 /* QuartzCore.framework in Frameworks */,
+				33AF163A3A7D3E6C73C4A746 /* UniformTypeIdentifiers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2057E9BC6B0583D6D0795AFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11181A790463D1D333DC59A4 /* QLFFT.h */,
+				399C885052E27FDDA868B5E7 /* QLFFT.m */,
+				D771C66F35415BBC4AD1A1D2 /* QLHeisenbergSolver.h */,
+				6B59A583701FC365A36464E2 /* QLHeisenbergSolver.m */,
+				4E4ED870131F59303ACB3816 /* QLParameterCatalog.h */,
+				FAD5B17F25F3B37AF038D4D5 /* QLParameterCatalog.m */,
+				F8E3E2FE6C2DB48CA574544F /* QLParameterDefinition.h */,
+				69E9D17350AF5CB99F29A59F /* QLParameterDefinition.m */,
+				CEF10075C6BE0678F6C240EE /* QLParameterSet.h */,
+				B779DDE5373D5D0BC286BB30 /* QLParameterSet.m */,
+				56A61FCF21F19FD687C03BF5 /* QLPotential.h */,
+				D309BF5DED6B49383F69C2A8 /* QLPotential.m */,
+				45BBBD36CC6C9138380B9547 /* QLSchrodingerSolver.h */,
+				3E8F9B5B01FFEAF253FEC89F /* QLSchrodingerSolver.m */,
+				CAA1C837A9AB8263C6AE420B /* QLSelfTest.h */,
+				BBA0B92950AF22A9BAB75000 /* QLSelfTest.m */,
+				FE36BF08BE363FB4D3D1D78F /* QLSimulationConfig.h */,
+				FEB9DF38B01D7AEC37E5766D /* QLSimulationConfig.m */,
+				1A1D0218932019FA9484A827 /* QLSimulationResult.h */,
+				8B698859849CA2D80032606F /* QLSimulationResult.m */,
+				7DE6801ABF5268C932B63B76 /* QLTypes.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61DA05A21AD4B205FEDBEFEB /* QuantumLab */ = {
+			isa = PBXGroup;
+			children = (
+				92D5C68DB4F2506456A3351E /* AppDelegate.h */,
+				6A8C8495BF90A647D104A4D5 /* AppDelegate.m */,
+				E20649D72CD350E385D70DE8 /* Assets.xcassets */,
+				348BC36EDF93E476DB651DD5 /* main.m */,
+				9F7C3F7F0AE2A51264D396B1 /* QL2DPlotView.h */,
+				485EAA768E6B140758393DC1 /* QL2DPlotView.m */,
+				3BAAF026DBFB50CFA3F7E7D1 /* QL3DPlotView.h */,
+				275884AAC3880045B3DED50D /* QL3DPlotView.m */,
+				1F7298B9769374A5755657B3 /* QLColorMap.h */,
+				B2D3A8E2BDBCBCBBC2B3D262 /* QLColorMap.m */,
+				FE2D4FFD0D6670C95EFE9A51 /* QLHelpWindowController.h */,
+				49AF8965D29EBC388987B29C /* QLHelpWindowController.m */,
+				32427FCB2E7E11FB17BF56B6 /* QLMainWindowController.h */,
+				7FAF49C566A28834C1377CE9 /* QLMainWindowController.m */,
+				39033AE7BA829D68A2B0EDE1 /* QLParameterFormView.h */,
+				CF3BF02B2EB461975CBF9A3F /* QLParameterFormView.m */,
+				E1039C28884027BCA09A29BF /* QLParameterRow.h */,
+				79BE0FB5F2319AB6A2C277E8 /* QLParameterRow.m */,
+				BF7B2EE4B2207C886137D88C /* QLPlotStyle.h */,
+				4A833EBAFD47EAAB3F49F0A8 /* QLPlotStyle.m */,
+				DE38E83835FA91CB65FE8FA4 /* QLUITest.h */,
+				A896E6393712FFFCA3C01594 /* QLUITest.m */,
+				2057E9BC6B0583D6D0795AFF /* Model */,
+				91F4D1137C78CD70DB4E4341 /* Resources */,
+			);
+			path = QuantumLab;
+			sourceTree = "<group>";
+		};
+		91F4D1137C78CD70DB4E4341 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				867FEE34D3D90EB6B4659CA5 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C90E0BB01CFACFA86EE8F746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AAB5F47E4D65EC34B220893 /* Accelerate.framework */,
+				EB80C3CD0DB72D9CF27A5DC2 /* Cocoa.framework */,
+				280705AC6438FDF85B9BE5B8 /* QuartzCore.framework */,
+				1F485E439B511913FC5C2BE6 /* SceneKit.framework */,
+				E5CA6200C4FC0930FB61177F /* UniformTypeIdentifiers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E61C8F09622A11DE9FEC9373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C60DEED79C269312F0623482 /* QuantumLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F02A8C5BCFB57A4A651ECA03 = {
+			isa = PBXGroup;
+			children = (
+				61DA05A21AD4B205FEDBEFEB /* QuantumLab */,
+				C90E0BB01CFACFA86EE8F746 /* Frameworks */,
+				E61C8F09622A11DE9FEC9373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE25F4330E7582D9D4C17E4A /* QuantumLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EDAB6B2F94CE43C6B1675B /* Build configuration list for PBXNativeTarget "QuantumLab" */;
+			buildPhases = (
+				6A93C27CC9AEF75C598F0741 /* Sources */,
+				0F2E2BCB042E4F7139F21DBE /* Resources */,
+				8207ED8783E802222D5EA622 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuantumLab;
+			packageProductDependencies = (
+			);
+			productName = QuantumLab;
+			productReference = C60DEED79C269312F0623482 /* QuantumLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19D22D77FD46A1D3C91A8507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 82E7F6A55CED7AE3813AEE85 /* Build configuration list for PBXProject "QuantumLab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F02A8C5BCFB57A4A651ECA03;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E61C8F09622A11DE9FEC9373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE25F4330E7582D9D4C17E4A /* QuantumLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F2E2BCB042E4F7139F21DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C63B38A67DF809E0728EEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A93C27CC9AEF75C598F0741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41252B6913CFDE03EAF60BF8 /* AppDelegate.m in Sources */,
+				6850CE02A47C4C32BB63BE2C /* QL2DPlotView.m in Sources */,
+				428DE5D716344CA920E281E7 /* QL3DPlotView.m in Sources */,
+				FA89E8101A080FBFFC9E87ED /* QLColorMap.m in Sources */,
+				0471BB3FAD16041354F9B3E7 /* QLFFT.m in Sources */,
+				C3FBA25CFD1838F62847615E /* QLHeisenbergSolver.m in Sources */,
+				0DCE4959D139BAA68E3CE983 /* QLHelpWindowController.m in Sources */,
+				452ADB22E3004C502B5E3D4A /* QLMainWindowController.m in Sources */,
+				1E28C27F698413E27CC6F081 /* QLParameterCatalog.m in Sources */,
+				D763786514668B1A7069D9D9 /* QLParameterDefinition.m in Sources */,
+				D0EC28B2C1AF067379EC09A0 /* QLParameterFormView.m in Sources */,
+				7A049EAF32D0E3CAC9531074 /* QLParameterRow.m in Sources */,
+				9EB21B42D6015863A69FCEBB /* QLParameterSet.m in Sources */,
+				4E450B5EBA14B5D0A4A31EF6 /* QLPlotStyle.m in Sources */,
+				3C282A87F767A0CCED93A934 /* QLPotential.m in Sources */,
+				5775362C1ACF0D871F0B7698 /* QLSchrodingerSolver.m in Sources */,
+				5A753C55BCE2926925482EB9 /* QLSelfTest.m in Sources */,
+				4E00F73669AD58087862D639 /* QLSimulationConfig.m in Sources */,
+				0E52F69F6D82E8B21D3015A4 /* QLSimulationResult.m in Sources */,
+				72E973A308DAF1E9EF02C5F9 /* QLUITest.m in Sources */,
+				4C1C472B2359B3387AFACD32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E3CCAA5ACE6585BB5D957E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = QuantumLab/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.QuantumLab;
+				PRODUCT_NAME = QuantumLab;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		15BD22EA45F6DCD7B9FA94AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "-Wno-deprecated-declarations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4C829A304604DA7A15C285A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = QuantumLab/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.QuantumLab;
+				PRODUCT_NAME = QuantumLab;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6EE7B1B54015DD001707D03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-Wno-deprecated-declarations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07EDAB6B2F94CE43C6B1675B /* Build configuration list for PBXNativeTarget "QuantumLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C829A304604DA7A15C285A0 /* Debug */,
+				0E3CCAA5ACE6585BB5D957E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		82E7F6A55CED7AE3813AEE85 /* Build configuration list for PBXProject "QuantumLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE7B1B54015DD001707D03F /* Debug */,
+				15BD22EA45F6DCD7B9FA94AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19D22D77FD46A1D3C91A8507 /* Project object */;
+}

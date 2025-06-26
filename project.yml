@@ -1,0 +1,45 @@
+name: QuantumLab
+options:
+  bundleIdPrefix: com.sid
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+settings:
+  base:
+    CLANG_ENABLE_OBJC_ARC: YES
+    GCC_C_LANGUAGE_STANDARD: gnu17
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    CODE_SIGNING_ALLOWED: NO
+    CODE_SIGN_IDENTITY: "-"
+    OTHER_CFLAGS: "-Wno-deprecated-declarations"
+    CLANG_WARN_DOCUMENTATION_COMMENTS: NO
+targets:
+  QuantumLab:
+    type: application
+    platform: macOS
+    sources:
+      - path: QuantumLab
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sid.QuantumLab
+        INFOPLIST_FILE: QuantumLab/Resources/Info.plist
+        ENABLE_HARDENED_RUNTIME: NO
+        PRODUCT_NAME: QuantumLab
+        COMBINE_HIDPI_IMAGES: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    dependencies:
+      - sdk: Cocoa.framework
+      - sdk: SceneKit.framework
+      - sdk: Accelerate.framework
+      - sdk: QuartzCore.framework
+      - sdk: UniformTypeIdentifiers.framework
+schemes:
+  QuantumLab:
+    build:
+      targets:
+        QuantumLab: all
+    run:
+      config: Debug
+    archive:
+      config: Release
