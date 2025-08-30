@@ -125,47 +125,47 @@ PNG export captures the currently visible plot. 3D PNGs use the SceneKit snapsho
 
 ### Schrödinger equation
 
-\[
+$$
 i\hbar\frac{\partial\psi}{\partial t}
 = -\frac{\hbar^2}{2m}\nabla^2\psi + V(\mathbf r)\psi
-\]
+$$
 
 The spatial domain is periodic and centered on the origin. The solver uses the symmetric split-step Fourier scheme:
 
-1. half potential kick, \(\exp(-iV\Delta t/2\hbar)\);
-2. full kinetic propagation in Fourier space, \(\exp(-i\hbar k^2\Delta t/2m)\);
+1. half potential kick, $\exp(-iV\Delta t/2\hbar)$;
+2. full kinetic propagation in Fourier space, $\exp(-i\hbar k^2\Delta t/2m)$;
 3. second half potential kick.
 
-1D transforms use an in-house radix-2 Cooley–Tukey FFT. 2D transforms use row FFTs followed by column FFTs. The Strang splitting is second-order accurate and unconditionally stable; accuracy is controlled by \(\Delta t\), the potential strength, and the maximum kinetic phase. The app reports a warning when the maximum phase per step becomes large.
+1D transforms use an in-house radix-2 Cooley–Tukey FFT. 2D transforms use row FFTs followed by column FFTs. The Strang splitting is second-order accurate and unconditionally stable; accuracy is controlled by $\Delta t$, the potential strength, and the maximum kinetic phase. The app reports a warning when the maximum phase per step becomes large.
 
 #### Initial wave packets
 
 1D:
 
-\[
+$$
 \psi_0(x)=A\exp\!\left(-\frac{(x-x_0)^2}{4\sigma_x^2}\right)e^{ik_0x}
-\]
+$$
 
 2D:
 
-\[
+$$
 \psi_0(x,y)=A\exp\!\left(-\frac{(x-x_0)^2}{4\sigma_x^2}
 -\frac{(y-y_0)^2}{4\sigma_y^2}\right)
 e^{i(k_{x0}x+k_{y0}y)}e^{il\theta}
-\]
+$$
 
-The normalization constant \(A\) is computed from the discrete grid so that
-\(\sum |\psi|^2\Delta x\Delta y=1\) at \(t=0\).
+The normalization constant $A$ is computed from the discrete grid so that
+$\sum |\psi|^2\Delta x\Delta y=1$ at $t=0$.
 
 #### Absorbing boundaries
 
 When the absorbing width is positive, a quadratic mask is applied inside a boundary band:
 
-\[
+$$
 W(x)=W_0\left(\frac{d(x,\partial\Omega)}{d_{\text{abs}}}\right)^2,
 \qquad
 \psi\leftarrow\psi\exp(-W\Delta t/\hbar).
-\]
+$$
 
 This suppresses periodic wraparound for scattering calculations. Norm loss is then expected and is reported in the status bar.
 
@@ -173,38 +173,38 @@ This suppresses periodic wraparound for scattering calculations. Norm loss is th
 
 The general equation is
 
-\[
+$$
 \frac{dA}{dt}=\frac{i}{\hbar}[H,A]+\frac{\partial A}{\partial t}.
-\]
+$$
 
 #### Spin-1/2
 
-\[
+$$
 H=-\frac{\gamma\hbar}{2}\mathbf B(t)\cdot\boldsymbol\sigma,
 \qquad
 \frac{d\mathbf S}{dt}=\gamma\mathbf S\times\mathbf B(t).
-\]
+$$
 
 The Bloch vector is initialized from polar and azimuthal angles, and the trajectory is integrated with RK4. A static field plus a sinusoidal drive along a selected axis is supported. The Bloch vector is plotted as a unit vector; its magnitude is checked numerically.
 
 #### Harmonic oscillator
 
-\[
+$$
 H=\frac{p^2}{2m}+\frac12m\omega^2x^2
-\]
+$$
 
 with Heisenberg equations
 
-\[
+$$
 \frac{dx}{dt}=\frac{p}{m},\qquad
 \frac{dp}{dt}=-m\omega^2x-2\gamma_d p.
-\]
+$$
 
 The damping term is **phenomenological**, not part of the Hamiltonian. It defaults to zero.
 
 ### Units
 
-The application uses **dimensionless natural units**. \(\hbar\) and \(m\) are editable in the Schrödinger model. There is no conversion between SI, atomic units, and natural units. Frequencies, fields, and times are expressed in the app's natural units.
+The application uses **dimensionless natural units**. $\hbar$ and $m$ are editable in the Schrödinger model. There is no conversion between SI, atomic units, and natural units. Frequencies, fields, and times are expressed in the app's natural units.
 
 ## Parameter reference
 
@@ -246,7 +246,7 @@ All parameters are exposed in the sidebar; the table below summarizes the main g
 | `driveAmp`, `driveFreq`, `drivePhase`, `driveAxis` | Resonant drive | off; amplitude 0 |
 | `mass`, `omega` | Oscillator parameters | 1 / 1 |
 | `x0`, `p0` | Initial oscillator state | 1 / 0 |
-| `damping` | Phenomenological damping \(\gamma_d\) | 0 |
+| `damping` | Phenomenological damping $\gamma_d$ | 0 |
 
 ### Plot options
 
@@ -267,11 +267,11 @@ The popup also shows **Custom** after you edit a value or switch modes/systems w
 
 ## Validation and resource limits
 
-- \(N_x\) and \(N_y\) must be powers of two between 32 and 2048.
+- $N_x$ and $N_y$ must be powers of two between 32 and 2048.
 - 2D output is limited to 800 frames and approximately 1.5 GB; runs above 512 MB produce a warning.
 - Total internal steps are capped at 2,000,000.
 - The app warns when the initial packet approaches the domain edge or the absorbing band is wider than half the domain.
-- The maximum split-step phase is reported when it is large; reduce \(\Delta t\) if the warning is significant.
+- The maximum split-step phase is reported when it is large; reduce $\Delta t$ if the warning is significant.
 
 ## Project layout
 
